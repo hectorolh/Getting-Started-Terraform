@@ -3,15 +3,11 @@
 ##################################################################################
 
 provider "aws" {
-  region     = "eu-central-1"
-  access_key = "AKIA5FRHTGFQJV4QTH5M"
-  secret_key = "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"
+  access_key = "ACCESS_KEY"
+  secret_key = "SECRET_KEY"
+  region     = "us-east-1"
 }
-# access_key = "AKIA5FRHTGFQJV4QTH5M"
-# secret_key = "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"
-# access_key = "AKIA5FRHTGFQEEVQFOAN"
-# secret_key = "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"
-# terraform init AWS_ACCESS_KEY_ID=AKIA5FRHTGFQJV4QTH5M AWS_SECRET_ACCESS_KEY=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 
+
 ##################################################################################
 # DATA
 ##################################################################################
